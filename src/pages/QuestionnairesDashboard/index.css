@@ -11,7 +11,12 @@
     overflow-y: scroll;
     overflow-x: hidden;
     background-color: white;
-    padding: var(--base-padding);
-    padding-top: var(--large-padding);
+    padding-inline: var(--base-padding);
+    margin-top: var(--base-padding);
+    margin-bottom: var(--small-padding);
+    margin-right: var(--small-padding);
+    border-color: var(--sub-text-color);
+    border-style: solid;
+
 }
 
