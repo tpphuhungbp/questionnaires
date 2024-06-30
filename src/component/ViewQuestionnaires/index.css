@@ -1,0 +1,22 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    gap: var(--base-padding);
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: var(--sub-text-color);
+}
+
+.toolBar{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--base-padding);
+}

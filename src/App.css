@@ -1,3 +1,15 @@
+:root {
+  --primary-color: #ff0d00;
+  --secondary-color: #f5f5f5;
+  --text-color: #4c4c4c;
+  --sub-text-color: #9b9b9beb;
+  --primary-button-text-color:#ffffff;
+  --background-color: #f5f5f5;
+  --base-padding: 20px;
+  --large-padding: 40px;
+  --small-padding: 10px;
+}
+
 .App {
   text-align: center;
 }
@@ -28,10 +40,16 @@
   color: #61dafb;
 }
 
+.primary-button-color {
+  color: var(--primary-button-text-color);
+  background-color: var(--primary-color);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
