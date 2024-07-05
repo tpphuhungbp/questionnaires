@@ -1,3 +1,9 @@
 IIB was known as WebSphere Message Broker is IBM's integration 
 
 Phan mem de tao server, co cac brand khac nhu JBoss.
+
+có nhiều comunication protocol: TCP, HTTP, FileSystem, FTP, SMTP etc.
+
+có nhiều message format, Binary (C/COBOL), XML, IDOC, JSON, ...
+
+https://668651e583c983911b01b188.mockapi.io/api/v1/questionnaires
